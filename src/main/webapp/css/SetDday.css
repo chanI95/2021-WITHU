@@ -1,0 +1,48 @@
+div.main-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* margin-left: 200px; */
+    background-color: white;
+    padding: 0 250px;
+    box-sizing: border-box; 
+}
+#my_header {
+    position: relative;    
+}
+.headimg{
+    padding-top: 62px;
+    padding-left: 70px;
+    width: 600px;
+    border: none;
+}
+table{
+    padding-top: 50px;
+    padding-left: 75px;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+}
+
+tr.hr{
+    border-bottom: 10px;
+}
+.Cbtn{
+    float: right;
+}
+.Sbtn{
+    float: left;
+}
+.setbtn{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(196, 196, 196, 0.705);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    cursor: pointer;
+    position: relative;
+    font-size: 10pt;
+    font-weight: 600;
+}

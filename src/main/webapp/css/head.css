@@ -1,0 +1,33 @@
+.header {
+    background-color: #2f4f4f;
+    width: 100%;
+    height: 75px;
+    top : 0;
+    left: 0;
+    position: fixed;
+    z-index: 9999;
+}
+.logoA {
+    text-decoration-line: none;
+}
+.logo{
+    color: white;
+    line-height: 30px;
+    float: left;
+    margin-left: 20px;
+}
+.nav{
+    float: right;
+}
+.navli {
+    list-style: none;
+    padding-left: 0px;
+}
+.profile {
+    float: right;
+    border: 3px solid white;
+    width:  40px;
+    height: 40px;
+    border-radius: 70%;
+    margin-right: 20px;
+}

@@ -1,0 +1,116 @@
+.sideBar {
+    background-color: #2f4f4f;
+    position: fixed;
+    width: 250px;
+    height: 103%;
+    margin-left: -9px;
+    margin-top: -16px;
+    overflow: auto;
+}
+.title{
+  color: white;
+  text-align: center;
+  margin-top: 15%;
+}
+.sideDay{
+  position: static;
+  width: 250px;
+  height: 85px;
+  left: 0px;
+  background: rgba(196, 196, 196, 0.28)
+}
+.day{
+  color: white;
+  text-align: center;
+  line-height: 80px;
+}
+.sideImg {
+  position: absolute;
+  width: 250px;
+  margin-top: 30px;
+}
+.img{
+  width: 120px;
+  height: 120px; 
+  border-radius: 70%;
+  /* overflow: hidden; */
+}
+.imgs{
+  text-align: center;
+}
+.profileImg {
+  border: 3px solid white;
+  width:  100%;
+  height: 100%;
+  border-radius: 70%;
+  object-fit: cover;
+  margin-left: 48%;
+}
+.sideNick {
+  margin-top: 200px;
+  text-align: center;
+}
+.nickName {
+  color: white;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.sideSelf {
+  text-align: center;
+}
+.yourself {
+  color: white;
+  font-size: 9pt;
+}
+.logout{
+  background-color: rgba(196, 196, 196, 0.28);
+  margin-top: 10%;
+  margin-left: 8%;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.href {
+  text-decoration-line: none;
+  color: white;
+}
+.member{
+  background-color: rgba(196, 196, 196, 0.28);
+  margin-top: 4%;
+  margin-left: 8%;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  padding: 15px 65px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.dday {
+  background-color: rgba(196, 196, 196, 0.28);
+  margin-top: 4%;
+  margin-left: 8%;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  padding: 15px 72px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+/* 본문 */
+.page {
+  margin-left: 350px;
+}
+

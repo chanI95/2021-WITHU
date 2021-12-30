@@ -1,0 +1,52 @@
+.login{
+    margin-top: 8%;
+}
+table {
+    margin: auto;
+    margin-top: auto;
+    text-align: center;
+}
+.inputForm{
+    border-bottom: 2px solid #adadad;
+    margin: 10px;
+    padding: 10px 10px;
+}
+.inputForm{
+    border-bottom: 2px solid #adadad;
+    margin: 10px;
+    padding: 10px 10px;
+}
+.id, .pw {
+    width: 100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+}
+.loginBtn {
+    background-color: #406e6e;
+    border: none;
+    padding: 15px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.loginHref1 {
+    text-decoration-line: none;
+    color: white;
+}
+.loginHref2 {
+    text-decoration-line: none;
+    color: black;
+}
+.loginHref3 {
+    text-decoration-line: none;
+    color: #2f4f2f;;
+    font-weight: 600;
+}

@@ -1,0 +1,108 @@
+html, body{
+    background-color: #869393;
+    height: 100%;
+}
+div.container{
+    max-width: 750px;
+    margin: 0 auto; /* 화면 가운데로 */
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+.diary{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background: rgba(196, 196, 196, 0.37);
+    border: 1px solid #e6e6e6;
+    padding: 35px 20px;
+    border-radius: 30px;
+    text-align: left;
+}
+.titleIn::placeholder{
+    color: black;
+    font-weight: 600;
+}
+.titleIn{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    background: rgba(196, 196, 196, 0);
+    border: none;
+    border-bottom: 3px solid white;
+    height: 50px;
+    width: 92%;
+    font-size: 20pt;
+    color: black;
+    font-weight: 600;
+    padding-left: 20px;
+}
+input.image_file {
+    visibility: hidden;
+}
+.browse_btn{
+    float: right;
+    margin-right: 10px;
+    border: none;
+    background-color: rgba(196, 196, 196, 0);
+    text-align: center;
+}
+i#imgicon{
+    font-size: 2em;
+}
+.photo{
+    font-size: 12pt;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+.imgcenter{
+    text-align: center;
+}
+.imgsize{
+    max-width: 97%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.textp{
+    text-align: center;
+}
+.textbox{
+    border: none;
+    border-radius: 10px;
+    
+}
+.textbox::placeholder{
+    padding-top: 20px;
+    padding-left: 30px;
+    color: black;
+}
+input.radio{
+    margin-left: 15px;
+    margin-top: 20px;
+    border: none;
+}
+label{
+    padding-left: 10px;
+}
+button.save, button.back {
+    float: right;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(196, 196, 196, 0.705);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+    position: relative;
+}
+.save{
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.btnhref{
+    text-decoration-line: none;
+    color:black;
+    font-size: 13pt;
+    font-weight: 600;
+}

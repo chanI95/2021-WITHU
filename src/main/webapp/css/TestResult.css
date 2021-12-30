@@ -1,0 +1,88 @@
+div.main-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* margin-left: 200px; */
+    background-color: white;
+    padding: 0 250px;
+    box-sizing: border-box; 
+}
+#my_header {
+    position: relative;    
+}
+.headimg{
+    padding-top: 62px;
+    padding-left: 70px;
+    width: 600px;
+    border: none;
+}
+#my_header > #header-menu {
+    padding-top: 39px;
+    width: 580px;
+    position: absolute;
+    left : 140px;
+    display: inline-block;
+}
+#header-menu>ul {
+    overflow: hidden;
+}
+#header-menu>ul>li{
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+#header-menu>ul>li>a#nonsee {
+    display: block;
+    color: #929ba1;
+    line-height: 20px;
+    padding: 10px 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    margin-left: 10px;
+}
+#header-menu>ul>li>a#see {
+    display: block;
+    color: black;
+    line-height: 20px;
+    padding: 10px 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    margin-left: 10px;
+}
+table {
+    margin-top: 120px;
+    margin-left: 50px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 600px;
+    height: 400px;
+}
+.number{
+    height: 10px;
+}
+.score{
+    font-size: 25px;
+    width: 80px;
+    height: 30px;
+}
+#myChart {
+    margin-top: 90px;
+    margin-right: 30px;
+    width: 100px;
+}
+.bgcolor{
+    background-color: #c4c4c4;
+    height: 100px;
+}
+#comment{
+    font-size: 10px;
+    line-height: 30px;
+}
+.chart{
+    margin: 0 auto;
+}

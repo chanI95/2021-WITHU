@@ -1,0 +1,82 @@
+div.main-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* margin-left: 200px; */
+    background-color: white;
+    padding: 0 250px;
+    box-sizing: border-box; 
+}
+#my_header {
+    position: relative;    
+}
+.headimg{
+    padding-top: 62px;
+    padding-left: 70px;
+    width: 600px;
+    border: none;
+}
+#my_header > #header-menu {
+    padding-top: 39px;
+    width: 580px;
+    position: absolute;
+    left : 140px;
+    display: inline-block;
+}
+#header-menu>ul {
+    overflow: hidden;
+}
+#header-menu>ul>li{
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+#header-menu>ul>li>a#nonsee {
+    display: block;
+    color: #929ba1;
+    line-height: 20px;
+    padding: 10px 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    margin-left: 10px;
+}
+#header-menu>ul>li>a#see {
+    display: block;
+    color: black;
+    line-height: 20px;
+    padding: 10px 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    margin-left: 10px;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+td{
+    width: 150px;
+    height: 150px;
+    background-color: #c4c4c4;
+    border: 10px solid white;
+}
+.imgcontainer{
+    overflow: hidden; /*div 범위 벗어나는 부분 자르기*/
+    /*이미지가 잘려도 가운데 보여주기*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+}
+.imgcontainer img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+}

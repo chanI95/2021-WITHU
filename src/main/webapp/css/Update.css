@@ -1,0 +1,80 @@
+div.main-container{
+    max-width: 900px;
+    margin: 0 auto;
+    /* margin-left: 200px; */
+    background-color: white;
+    padding-left: 320px;
+    box-sizing: border-box; 
+}
+.topblank{
+    height: 90px;
+}
+.editmember{
+    margin-left: 170px;
+}
+.titlecenter{
+    font-size: 18pt;
+    font-weight: 600;
+}
+.imgcenter{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.imgsize {
+    border: 2px solid #2f4f4f;
+    width:  200px;
+    height: 200px;
+    border-radius: 70%;
+    object-fit: cover;
+}
+input.image_file {
+    visibility: hidden;
+}
+.browse_btn{
+    margin-left: 180px;
+    text-align: center;
+    border: none;
+    background-color: rgba(196, 196, 196, 0);
+    text-align: center;
+}
+.editform {
+    margin-top: 35px;
+    margin-left: 90px;
+    text-align: center;
+    width: 400px;
+}
+.editNick{
+    font-size: 19pt
+}
+.inputForm{
+    text-align: left;
+    border-bottom: 2px solid #adadad;
+    margin: 10px;
+    padding: 10px 10px;
+}
+.nick, .pw, .name, .tel, .addr {
+    width:100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:15px;
+    height:20px;
+    background: none;    
+}
+.saveBtn, .closeBtn {
+    background-color: rgb(196, 196, 196);
+    border: none;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.editHref1 {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}

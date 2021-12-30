@@ -1,0 +1,190 @@
+html, body{
+    background-color: #869393;
+    height: 100%;
+}
+div.container{
+    max-width: 750px;
+    margin: 0 auto; /* 화면 가운데로 */
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+.qcontainer {
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: rgba(218, 165, 32, 0.2);
+    border: 1px solid #e6e6e6;
+    padding: 35px 20px;
+    border-radius: 30px;
+    text-align: left;
+    -webkit-box-align: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+
+}
+.question {
+    margin-top: 9px;
+    background: rgba(255, 255, 255);
+    border: 1px solid #e6e6e6;
+    /* padding: 35px 20px; */
+    border-radius: 30px;
+    text-align: left;
+    -webkit-box-align: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+    text-align: center;
+}
+.qulist {
+    color: gray;
+    font-size: 12pt;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.btntable{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.leftblank {
+    text-align: right;
+}
+.rightblank {
+    text-align: left;
+}
+.ansbtn, .wrbtn {
+    background-color: rgba(196, 196, 196, 0.705);
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 9pt;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+    position: relative;
+    border-radius: 30px;
+    font-weight : 600;
+}
+a.href{
+    text-decoration-line: none;
+    color:black;
+    font-weight: 600;
+}
+.postcontainer {
+    margin-top: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: rgba(196, 196, 196, 0.37);
+    border: 1px solid #e6e6e6;
+    padding: 35px 20px;
+    border-radius: 30px;
+    text-align: left;
+    -webkit-box-align: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 30%);
+}
+div.member{
+    border-bottom: 3px solid white;
+    height: 75px;
+}
+.memberul {
+    float: right;
+    list-style: none;
+    width: 45%;
+    position: relative;
+    left: -50%;
+}
+.memberImg {
+    border: 3px solid white;
+    width:  50px;
+    height: 50px;
+    border-radius: 70%;
+}
+.nick {
+    font-size: 13pt;
+}
+.date {
+    font-size: 7pt;
+}
+.boardTitle{
+	width : 620px;
+    margin-top: 15px;
+ 	margin-left: 15px;
+
+}
+.btitle{
+    font-size: 18pt;
+    font-weight: 900;
+}
+.imgs{
+    text-align: center;
+}
+.bimg {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.board {
+    margin : auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255);
+    border: 1px solid #e6e6e6;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    text-align: left;
+}
+.re{
+    margin-top: 30px;
+}
+.rewriter {
+    border: none;
+    border-radius: 30px;
+    width: 80%;
+    height: 50px;
+    padding-left: 40px;
+    font-size: 11pt;
+}
+.confirm {
+    background-color: rgba(196, 196, 196, 0.705);
+    border: none;
+    height: 50px;
+    width: 10%;
+    float: right;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+.seere {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.renick {
+    font-size: 13pt;
+}
+.review {
+    font-size: 9pt;
+    padding-left: 20px;
+    font-weight: 100;
+}
+div.footblank {
+    margin : auto;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    background: rgba(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    text-align: left;
+}
+.
